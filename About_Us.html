@@ -7,25 +7,59 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: wheat;
+            padding: 0px;
+            background-color: aliceblue;
             padding-bottom: 400px;
+            margin: 0px;
+            margin-top: 0px;
+            
+            
+            
             
         }
 
         header {
             background-color: #333;
             color: #fff;
-            padding: 100px;
+            padding: 0px;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 0px;
             margin-top: 0px;
         }
 
+
+
+        .About-Us{
+            background-image: url(IMAGES/Aboutus.jpg);
+            background-position: 0px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            box-sizing: border-box;
+            padding: 250px;
+            background-size: 1345px 720px;
+            border: 3.5px dashed bisque;
+            border-radius: 15px;
+            margin-left: 0px;
+            font-style: italic;
+            font-weight: 200px;
+            line-height: 40px;
+            color:cornflowerblue;
+            text-align:center;
+            font-size: 50px;
+            text-transform: capitalize;
+            font-stretch:extra-expanded;
+            text-wrap: wrap;
+            opacity: 0.8;
+        }
+
+
         nav {
-            background-color:wheat;
-            overflow: hidden;
+            background-color:aliceblue;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            
+            
+            
         }
 
         nav a {
@@ -35,17 +69,33 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            margin-top: 0px;
-            margin-bottom: 1px;
+            margin-top: 10px;
+            margin-bottom: 0px;
             transition-duration: 1.5s;
             display: flex;
             justify-content: space-between;
+            padding-inline: 15px;
+            
+            
         }
 
         nav a:hover {
             background-color: pink;
             color: blueviolet;
             border-radius: 20px;
+        }
+
+        
+
+
+        .UG{
+            margin-top: 10px;
+            align-items: center;
+            width: 260px;
+            height: 45px;
+    
+        
+            
         }
 
         section {
@@ -55,63 +105,128 @@
         .about-section {
             background-color: #fff;
             border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 1 1 12px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin-bottom: 60px;
             text-align: center;
             font-weight: 200;
             font-size: larger;
             padding-bottom: 50px;
+            margin-top: 0px;
+            opacity: 0.8;
+            padding-top: 2px;
+            border: 3.5px dashed bisque;
+            
         }
 
         .Who-section{
-            text-align: left;
+            text-align:left;
             padding-top: 0px;
             font-weight: 200;
             font-size: larger;
+            margin-top: 0px;
+            cursor: pointer;
+            line-height:0px;
+        }
+    
 
             
         
-        }
 
-        .OCF-section{
-            text-align: right;
-            padding-top: 0px;
-            font-weight: 200;
-            font-size: larger;
-            text-indent: 17px;
+    .organization-section{
+       
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        justify-content: start;
+     
+        
+    }
+
     
-            
 
-        }
-        .UG{
-            width: 300px;
-        }
-
-        .org{
-            width: 600px;
-            height: 800px;
-            display: flex;
-
-        }
-
-        .organization-section{
-            text-align: center;
-            flex-direction: column;
-    
-        }
+    .community-section{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: end;
+        margin-bottom: 10px;
     
         
+    }
     
+    .future-section{
+        display: flex;
+        align-content: center;
+        justify-content: start;
+        align-items: center;
+        font-style: bold;
+        margin-top: 10px;
+        
+        
+    }
+    
+    .image-section{
 
-    
+        width: 570px;
+        height: 330px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        transition: 1.2s;
+             
+    }
 
+
+    .image-section:hover{
+        transform: scale(1.052);
+    }
     
+    .paragraph-section{
+        width: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: 400px;
+        margin-left: 20px;
+        line-height: 25px;
+        text-align: start;
+    
+    }
+
+    .heading-section{
+        margin-left: 20px;
+        font-style: bold;
+        font-size: x-large;
+        font-weight: 800px;
+        padding: 0;
+        cursor: pointer;
+        color: cornflowerblue;
+        margin-bottom: 1px;
+
+    }
+
+    .welcome-section{
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: cornflowerblue;
+        line-height: 0px;
+        font-size: 37px;
+        text-transform: capitalize;
+        font-stretch:expanded;
+        text-wrap: wrap;
+        font-weight: 170px;  
+        margin-bottom: 32px;        
+
+    }
+
+
+   
         
     </style>
 </head>
 
 <body>
+    
 
 
   <nav> <img class="UG" src="IMAGES/UG logo.png">
@@ -123,13 +238,13 @@
 
 
     <header>
-        <h1> Get To Know Us Better </h1>
+        <h1 class="About-Us"> Get To Know Us Better </h1>
     </header>
 
 
     <section>
         <div class="about-section">
-            <h2>Welcome</h2>
+            <h2 class="welcome-section">Welcome</h2>
             <p>This is the era of Information Technology and at its core is Computer Science.
                  The study of computer science is therefore significant if society is to take full advantage of the benefits 
                  Information Technology has to offer and make quick economic improvements.
@@ -152,7 +267,7 @@
                  
                 </p>
 
-            <h3>Our Mission</h3>
+            <h3 class="welcome-section">Our Mission  </h3>
             <p>Empowering students with a solid foundation in computer science, 
                 fostering cutting-edge research, and stimulating a collaborative 
                 and comprehensive learning environment.
@@ -160,57 +275,64 @@
             </p>
 
         </div>
+    
 
              <div class="Who-section">
-                <h4> Who We Are</h4>
+                <h4 class="welcome-section"> Who We Are? </h4>
                 <p>Things get fascinating because you are eager to know more , 
                     or you become eager to know more because it is fascinating.</p>
 
         </div>
 
             
-              <div class="OCF-section">
             <div class="organization-section">
-                <img  class="orga" src="IMAGES/orga.jpeg">
-                <h5> Our Organization</h5>
-                <p>
-                    The University of Ghana is one of the Africa's most distinguished public universities. 
-                    Our impact on individuals, our region and the world is profound. 
-                    whether we are launching young people into a boundless future or confronting 
-                    the grand challenges of our time through dauntless research. 
-                    University Of Ghana educates more than 38,000 students annually, with 
-                    approximately 2.64% being computer science students.
-                     We turn ideas into impact and transform the world around us. 
-                </p>
-                
+                    <img class="image-section" src="IMAGES/orga.jpeg">
+                    <div>
+                    <h5 class="heading-section"> Our Organization</h5>
+                    <p class="paragraph-section">
+                      The University of Ghana is one of the Africa's most distinguished public universities. 
+                        Our impact on individuals, our region and the world is profound. 
+                        whether we are launching young people into a boundless future or confronting 
+                        the grand challenges of our time through dauntless research. 
+                        University Of Ghana educates more than 38,000 students annually, with 
+                        approximately 2.64% being computer science students.
+                         We turn ideas into impact and transform the world around us. 
+                    </p>
+                    </div>
+            </div>
 
-    
 
             <div class="community-section">
-                <img src="IMAGES/community.jpeg">
-                <h6> Our Community</h6>
-                <p>
-                    If you are enthused by a big challenge, you've come to the right place! The computer science
-                      community at the university of Ghana encourages
-                     it's people to be vibrant and brave in taking on new challenges that push boundaries beyond imagination.
-                </p>
+                    <img class="image-section" src="IMAGES/community.jpeg">
+                    <div>
+                    <h6 class="heading-section"> Our Community</h6>
+                    <p class="paragraph-section">
+                        If you are enthused by a big challenge, you've come to the right place! The computer science
+                        community at the university of Ghana encourages
+                        it's people to be vibrant and brave in taking on new challenges that push boundaries beyond imagination.
+                    </p>
+                    </div>
+             </div>
+                
 
 
-                <div class="future-section">
-                    <img  src="IMAGES/future.jpeg">
-                    <h6> Building Our Future</h6>
-                    <p>
+            <div class="future-section">
+                    <img class="image-section" src="IMAGES/future.jpeg">
+                    <div>
+                    <h6 class="heading-section"> Building Our Future</h6>
+                    <p class="paragraph-section">
                         So, what defines our students, faculty and community members? Above all, 
                         it is our belief in the infinite potentials and our unshakable optimism.
                          It is a connection to others near and far. A hunger for socio-economic transformation 
                          that pushes us to tackle challenges and hound progress. 
                         It is the conviction that together we can create a world of good. Join us on the journey.
                     </p>
+                    </div>
+            </div>
 
-        </div>
+        
 
-        </div>
-    </section>
+ </section>
 
 </body>
 
