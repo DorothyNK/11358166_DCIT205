@@ -36,14 +36,10 @@ Set the head repository to your fork and the compare branch to your feature bran
                          ID : 11358166
     
                      SCREENSHOTS OF MY WEBSITE
-        ![Alt text](<IMAGES/Screenshot1.png>) 
+        ![Alt text](<SCREENSHOTS/Screenshot1.png>) 
         ![Alt text](<IMAGES/Screenshot2.png>) 
-        ![Screenshot of the Homepage](<IMAGES/Screenshot3.png>) 
-        ![Screenshot of the Homepage](<IMAGES/Screenshot4.png>) 
-        ![Screenshot of the About Us page](<IMAGES/Screenshot5.png>) 
-        ![Screenshot of the About Us page](<IMAGES/Screenshot6.png>) 
-        ![Screenshot of the About Us page](<IMAGES/Screenshot7.png>) 
-        ![Screenshot of the About Us page](<IMAGES/Screenshot8.png>) 
+        ![Alt text](<IMAGES/Screenshot1.png>) 
+        ![Alt text](<IMAGES/Screenshot2.png>)  
         ![Screenshot of the About Us page](<IMAGES/Screenshot9.png>) 
         ![Screenshot of the About Us page](<IMAGES/Screenshot10.PNG>) 
         ![Screenshot of the Faculty page](<IMAGES/Screenshot11.jpg>) 
