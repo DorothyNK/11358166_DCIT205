@@ -1,0 +1,291 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  margin-top: 10px;
+  
+}
+
+
+
+nav {
+  background-color:aliceblue;
+  margin-top: 10px;
+}
+
+
+
+nav a {
+float: right;
+display: block;
+color: #333;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+margin-top: 0px;
+margin-bottom: 1px;
+transition-duration: 1.5s;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+nav a:hover {
+background-color: pink;
+color: blueviolet;
+border-radius: 20px;
+}
+
+
+
+.UG{
+width: 260px;
+height: 45px;
+cursor: pointer;
+}
+
+
+
+.About-Us{
+background-image: url(IMAGES/contact.jpg);
+background-position: 0px;
+background-repeat: no-repeat;
+background-attachment: scroll;
+box-sizing: border-box;
+padding: 200px;
+background-size: 1350px 600px;
+border: 3.5px dashed bisque;
+border-radius: 15px;
+margin-left: 0px;
+opacity: 0.7;
+margin-top: 10px;
+        
+}
+
+
+.container{
+position: relative;
+}
+
+
+.top-right{
+position: absolute;
+top: 25px;
+right: 80px;
+font-style: italic;
+font-weight: 450px;
+font-size: larger;
+line-height: 40px;
+color: black;
+font-size: 50px;
+text-transform: capitalize;
+font-stretch:extra-expanded;
+text-wrap: wrap;
+text-indent: 20px;
+font-stretch: extra-expanded;
+
+}
+
+
+header {
+       color: #fff;
+       padding: 3px;
+       text-align: center;
+     }
+
+
+
+
+#map {
+position: relative;
+width: 100%;
+height: 100%;
+margin-left: 2px;
+margin-right: 0px;
+border: 3.5px dashed navajowhite;
+border-radius: 6px;
+padding: 0px;
+opacity: 0.6;
+}
+
+
+.contact-section{
+background-color:aliceblue;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(5, 5, 5, 0.6);
+padding: 25px;
+margin: 0.2px;
+cursor: pointer;
+justify-content: center;
+flex-direction: column;
+display: flex;
+width: 450px;
+height: 380px;
+margin-top:15px;
+border: dashed 3px #444;  
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 50px;
+
+}
+
+
+.faq-section{
+background-color:aliceblue;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(5, 5, 5, 0.6);
+padding: 35px;
+cursor: pointer;
+justify-content: center;
+flex-direction: column;
+display: flex;
+width: 450px;
+height: 350px;
+margin-top:50px;
+margin-bottom: 0px;
+margin-right: 10px;
+border: dashed 3px #444;
+float: right;
+
+} 
+
+
+.contactform-section{
+background-color:aliceblue;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(5, 5, 5, 0.6);
+padding: 35px;
+margin-top: 50px;
+cursor: pointer;
+justify-content: center;
+flex-direction: column;
+display: flex;
+width: 450px;
+height: 350px;
+border: dashed 3px #444;
+margin-left: auto;
+margin-right: auto;
+transition: 1.5s;
+}
+
+
+#quickContactForm {
+margin-top: 20px;
+}
+
+
+
+#quickContactForm label {
+display: block;
+margin-bottom: 5px;
+}
+
+
+
+#quickContactForm input,
+#quickContactForm textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+
+.quickContactForm {
+background-color: cornflowerblue;
+color: pink;
+padding: 10px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+
+#quickSuccessMessage {
+margin-top: 20px;
+display: none;
+color:cornflowerblue;
+}
+
+
+
+
+
+
+.section{
+
+
+height: 950px;
+border: 3px dashed bisque;
+border-radius: 10px;
+margin-left: 0px;
+margin-top: 10px;
+padding: auto;
+margin-top: 20px;
+}
+
+.footer-container{
+  background-color: rgb(214, 228, 240);
+  width: 97%;
+  margin-left: 20px;
+  display: grid;
+  grid-template-rows: 100px 130px 70px 60px;
+
+}
+
+.footer-items{
+  width: 100%;
+ 
+  
+}
+
+#footer-section{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 120px;
+  column-gap: 100px;
+  padding: 30px;
+  margin-left:130px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#footer_section{
+  text-align: center;
+  line-height: 25px;
+  width: 80%;
+  margin-left: 95px;
+  padding:30px;
+  font-size: 18px;
+
+}
+
+#pinned-images{
+  width: 35px;
+  padding-inline: 25px;
+}
+
+#pinned{
+  padding: 20px;
+  width: 50%;
+  margin-left: 29%;
+  margin-right: 25%;
+  justify-items: center;
+}
+
+
+h5{
+  font-size: 19.5px;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  
+}
+
