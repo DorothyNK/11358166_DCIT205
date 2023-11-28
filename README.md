@@ -38,7 +38,7 @@ Set the head repository to your fork and the compare branch to your feature bran
     
                      SCREENSHOTS OF MY WEBSITE
     ![Alt text](<SCREENSHOTS/Screenshot1.png>) 
-     ![Alt text](<SCREENSHOTS/Screenshot2.png>)
+     ![Alt text](<SCREENSHOTS/Screenshot 2.png>)
       ![Alt text](<SCREENSHOTS/Screenshot3.png>) 
      ![Alt text](<SCREENSHOTS/Screenshot4.png>)
     ![Alt text](<SCREENSHOTS/Screenshot5.png>)
