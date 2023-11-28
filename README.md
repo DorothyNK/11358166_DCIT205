@@ -1,6 +1,8 @@
                BRIEF INTRODUCTION AND PURPOSE OF WEBSITE
     Welcome to the virtual hub of technology and innovation at University of Ghana's Computer Science Department.
-    As a hub for innovation, our department is vigorously engaged in groundbreaking research that spans artificial intelligence, data science, and beyond. 
+    As a hub for innovation, our department is vigorously engaged 
+    in groundbreaking research that spans artificial intelligence,
+    data science, and beyond. 
     This website serves as a gateway to our department's resources, providing students, faculty, alumni, and visitors with access to the recent news, events, research endeavors, and academic programs. I therefore invite you to explore the exciting world of computer science at the University of Ghana. Join me on this exciting  journey of discovery and innovation!
 
                DETAILED INSTRUCTIONS ON HOW TO CLONE AND SET UP THE PROJECT      
