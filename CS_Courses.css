@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:aliceblue;
+  
+}
+
+
+
+nav {
+  background-color:aliceblue;
+  
+}
+
+nav a {
+  float: right;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  transition-duration: 1.5s;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a:hover {
+  background-color: pink;
+  color: blueviolet;
+  border-radius: 20px;
+}
+
+
+
+
+.UG{
+  width: 260px;
+  height: 45px;
+  cursor: pointer;
+
+  
+}
+
+section {
+  padding: 20px;
+}
+
+.course-category {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.container{
+  position: relative;
+  text-align: center;
+  color:pink;
+  
+  
+  
+}
+
+.container-section{
+  font-style: italic;
+  text-align: center;
+}
+
+
+.top-right{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: larger;
+  font: 45px poppins,sans-serif;
+  font-weight: 200px;
+  font-style: italic;
+  width: 775px;
+  text-transform: uppercase;
+
+
+
+}
+
+
+
+.image{
+  width: 1310px;
+  height: 480px;
+  border-radius: 10px;
+  opacity: 0.75;
+
+}
+
+.grid-container {
+ display: grid;
+ justify-content: space-between;
+ height: 100px;
+}
+
+   .Undergraduate-section{
+             
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+          justify-content: start;
+          position: relative;
+          text-align: center;
+          align-content: center;
+          margin-left:0px;
+   }
+
+
+
+   .image-section{
+
+      width: 570px;
+      height: 350px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+
+}
+
+
+  .shortcourses-section{
+              
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: end;
+      margin-bottom: 10px;
+  }
+
+
+.graduate-section{
+  
+          display: flex;
+          align-content: center;
+          justify-content: start;
+          align-items: center;
+          font-style: bold;
+          margin-top: 10px;
+          margin-left: 0px;
+}
+
+.footer-container{
+  background-color: rgb(214, 228, 240);
+  width: 97%;
+  margin-left: 20px;
+  display: grid;
+  grid-template-rows: 100px 130px 70px 60px;
+
+}
+
+.footer-items{
+  width: 100%;
+ 
+  
+}
+
+#footer-section{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 120px;
+  column-gap: 100px;
+  padding: 30px;
+  margin-left:130px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#footer_section{
+  text-align: center;
+  line-height: 25px;
+  width: 80%;
+  margin-left: 95px;
+  padding:30px;
+  font-size: 18px;
+
+}
+
+#pinned-images{
+  width: 35px;
+  padding-inline: 25px;
+}
+
+#pinned{
+  padding: 20px;
+  width: 50%;
+  margin-left: 29%;
+  margin-right: 25%;
+  justify-items: center;
+}
+
+
+h5{
+  font-size: 19.5px;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  
+}
