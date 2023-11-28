@@ -1,8 +1,12 @@
                BRIEF INTRODUCTION AND PURPOSE OF WEBSITE
     Welcome to the virtual hub of technology and innovation at University of Ghana's Computer Science Department.
     As a hub for innovation, our department is vigorously engaged in groundbreaking
-     research that spans artificial intelligence, data science, and beyond. 
-    This website serves as a gateway to our department's resources, providing students, faculty, alumni, and visitors with access to the recent news, events, research endeavors, and academic programs. I therefore invite you to explore the exciting world of computer science at the University of Ghana. Join me on this exciting  journey of discovery and innovation!
+    research that spans artificial intelligence, data science, and beyond. 
+    This website serves as a gateway to our department's resources, 
+    providing students, faculty, alumni, and visitors with access to 
+    the recent news, events, research endeavors, and academic programs. 
+    I therefore invite you to explore the exciting world of computer science at 
+    the University of Ghana. Join me on this exciting  journey of discovery and innovation!
 
                DETAILED INSTRUCTIONS ON HOW TO CLONE AND SET UP THE PROJECT      
 1.	Make sure you have a GitHub account. If not, you can create one at GitHub.
@@ -80,8 +84,11 @@ Set the head repository to your fork and the compare branch to your feature bran
         ![Screenshot of the Contact Us page](IMAGES//Screenshot46.jpg) 
         ![Screenshot of the Contact Us page](IMAGES/Screenshot47.jpg) 
 
-                                LESSONS LEARNT
-               I have learnt to maintain a  consistent branding elements, such as colors, fonts, and logos, to create a cohesive and professional look. This helps to build a recognizable and trustworthy brand. I have also learnt to work within deadlines
+                                  LESSONS LEARNT
+            I have learnt to maintain a  consistent branding elements,
+            such as colors, fonts, and logos, to create a cohesive
+            and professional look. This helps to build a recognizable 
+            and trustworthy brand. I have also learnt to work within deadlines.
         
      
         
